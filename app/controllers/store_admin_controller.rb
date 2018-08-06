@@ -1,5 +1,6 @@
 class StoreAdminController < ActionController::Base
 
-  def admin
+  def home
+    render layout: "admin"
   end
 end
